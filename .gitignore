@@ -5,4 +5,8 @@ pcaixa/.phpunit.cache/test-results
 pcaixa/.project
 pcaixa/.settings/org.eclipse.php.core.prefs
 pcaixa/.settings/org.eclipse.wst.common.project.facet.core.xml
+jcaixa/bin
+jcaixa/.buildpath
+jcaixa/.project
+jcaixa/.classpath
 
