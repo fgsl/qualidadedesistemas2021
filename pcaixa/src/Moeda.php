@@ -19,6 +19,11 @@ class Moeda {
             'BRL' => 0.2
         ]
     ];
+    private array $simbolos = [
+        'BRL' => 'R$',
+        'USD' => 'US$',
+        'PYG' => '₲'
+    ]; 
     
     public function __construct(float $valor, string $codigoMoeda)
     {
@@ -31,4 +36,15 @@ class Moeda {
         ($this->valor * $this->cotacoes[$this->codigoMoeda][$codigoMoeda]);  	          	    
 	    return $valorConvertido;
 	}
+	
+	public function exibir()
+	{
+	    $saida = $this->simbolos[$this->codigoMoeda] . ' ' . str_replace('.',',',number_format($this->valor,2));
+	    return $saida;
+	}
+	
+	
+	
+	
+	
 }

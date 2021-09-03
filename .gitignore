@@ -1,5 +1,6 @@
 .metadata/
 pcaixa/vendor/
+pcaixa/.phpunit.cache/
 pcaixa/.buildpath
 pcaixa/.phpunit.cache/test-results
 pcaixa/.project

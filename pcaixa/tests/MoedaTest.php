@@ -11,6 +11,7 @@ class MoedaTest extends TestCase {
 	public function testConverterReaisEmDolar()
 	{
 		$moeda = new Moeda(1,'BRL');
+		$this->assertEquals('R$ 1,00', $moeda->exibir());
 		$this->assertEquals(1/5,$moeda->converterPara('USD'));
 	}
 }
