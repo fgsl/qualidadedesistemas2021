@@ -30,6 +30,16 @@ class Moeda {
         $this->valor = $valor;
         $this->codigoMoeda = $codigoMoeda;
     }
+    
+    public function getCodigoMoeda(): string
+    {
+        return $this->codigoMoeda;
+    }
+    
+    public function getValor(): string
+    {
+        return $this->valor;
+    }
 
 	public function converterPara(string $codigoMoeda){
         $valorConvertido = 
@@ -43,8 +53,10 @@ class Moeda {
 	    return $saida;
 	}
 	
-	
-	
-	
-	
+	public function somar(Moeda $moeda)
+	{
+	    $soma = $this->valor;
+	    $soma += ($moeda->getValor() *  $this->cotacoes[$moeda->getCodigoMoeda()][$this->codigoMoeda]);
+	    return $soma;
+	}
 }
