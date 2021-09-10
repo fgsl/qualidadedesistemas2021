@@ -17,6 +17,15 @@ class MoedaTest extends TestCase {
 	/**
 	 * @covers Moeda
 	 */
+	public function testConverterReaisEmReais()
+	{
+	    $moeda = new Moeda(1100,'BRL');
+	    $this->assertEquals(1100,$moeda->converterPara('BRL'));
+	}
+	
+	/**
+	 * @covers Moeda
+	 */
 	public function testFormatarReais()
 	{
 	    $moeda = new Moeda(1,'BRL');

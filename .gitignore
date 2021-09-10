@@ -6,8 +6,13 @@ pcaixa/.phpunit.cache/test-results
 pcaixa/.project
 pcaixa/.settings/org.eclipse.php.core.prefs
 pcaixa/.settings/org.eclipse.wst.common.project.facet.core.xml
+pcaixa/code_coverage/
 jcaixa/bin
 jcaixa/.buildpath
 jcaixa/.project
 jcaixa/.classpath
+caixa/.classpath
+caixa/.project
+caixa/.settings/org.eclipse.jdt.core.prefs
+caixa/.settings/org.eclipse.m2e.core.prefs
 

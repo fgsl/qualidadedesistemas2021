@@ -42,6 +42,9 @@ class Moeda {
     }
 
 	public function converterPara(string $codigoMoeda){
+	    if ($codigoMoeda == $this->codigoMoeda){
+	        return $this->valor;
+	    }
         $valorConvertido = 
         ($this->valor * $this->cotacoes[$this->codigoMoeda][$codigoMoeda]);  	          	    
 	    return $valorConvertido;
