@@ -20,6 +20,11 @@ class Conta
     {
         return $this->pagamentos - $this->saldo;
     }
-    
+/**    
+    public function adicionarItem(Item $item)
+    {
+        $this->saldo += 10;    
+    }
+**/    
 }
 
