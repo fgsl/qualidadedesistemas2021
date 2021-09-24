@@ -15,4 +15,11 @@ caixa/.classpath
 caixa/.project
 caixa/.settings/org.eclipse.jdt.core.prefs
 caixa/.settings/org.eclipse.m2e.core.prefs
+cadastrodetelefones/.buildpath
+cadastrodetelefones/.gitignore
+cadastrodetelefones/.phpunit.cache/test-results
+cadastrodetelefones/.project
+cadastrodetelefones/.settings/org.eclipse.php.core.prefs
+cadastrodetelefones/.settings/org.eclipse.wst.common.project.facet.core.xml
+cadastrodetelefones/.settings/org.eclipse.wst.validation.prefs
 
